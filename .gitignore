@@ -1,0 +1,16 @@
+/.idea
+.env
+docker-compose.yml
+storage/*
+
+!storage/data/.gitkeep
+!storage/logs/.gitkeep
+
+/tennisclubarzachena-ingress
+/tennisclubarzachena-frontend
+/tennisclubarzachena-backoffice
+/tennisclubarzachena-backend
+/tennisclubarzachena-gateway
+/tennisclubarzachena-cms
+/tennisclubarzachena-blog
+/tennisclubarzachena-tournaments
