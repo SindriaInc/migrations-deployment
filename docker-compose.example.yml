@@ -7,7 +7,7 @@ services:
     container_name: "${APP_NAME}-migrations"
     volumes:
       - "${MIGRATIONS_CODE_PATH}:${APP_CODE_PATH}/database"
-      - "${./migrations.env}:${APP_CODE_PATH}/.env" 
+      - "./migrations.env:${APP_CODE_PATH}/.env" 
     hostname: "${APP_NAME}-migrations.local"
     networks:
       default:
